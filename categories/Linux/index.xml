@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on 云端奈何卿的博客</title>
+    <link>https://qingmengxinghe1024.github.io/categories/Linux/</link>
+    <description>Recent content in Linux on 云端奈何卿的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 15 May 2021 00:09:45 +0800</lastBuildDate><atom:link href="https://qingmengxinghe1024.github.io/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux常用命令</title>
+      <link>https://qingmengxinghe1024.github.io/post/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Sat, 15 May 2021 00:09:45 +0800</pubDate>
+      
+      <guid>https://qingmengxinghe1024.github.io/post/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>创建目录 mkdir smbms 查看文件详情 cat nginx.conf 重启nginx /usr/local/nginx/sbin/nginx -s reload 重启防火墙 firewall-cmd &amp;ndash;reload 开放82端口 firewall-cmd &amp;ndash;zone=public &amp;ndash;add-port=82/tcp &amp;ndash;permanent 启动nginx /usr/local/nginx/sbin/nginx 停止nginx /usr/local/nginx/sbin/nginx -s stop 测试nginx.conf是否成功 /usr/local/nginx/sbin/nginx -t 安装tar.gz文件 tar -zxvf nginx-1.17.6.tar.gz 运行tomcat ./apache-tomcat-7.0.47/bin/startup.sh 运行redis-cli控制台 ./usr/javaFile/redis/bin/redis-cli 查看redis进程 ps -ef|grep redis 查看Java进程 ps -aux|grep java -9表</description>
+    </item>
+    
+  </channel>
+</rss>

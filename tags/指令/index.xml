@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>指令 on 云端奈何卿的博客</title>
+    <link>https://qingmengxinghe1024.github.io/tags/%E6%8C%87%E4%BB%A4/</link>
+    <description>Recent content in 指令 on 云端奈何卿的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 15 May 2021 12:57:59 +0800</lastBuildDate><atom:link href="https://qingmengxinghe1024.github.io/tags/%E6%8C%87%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis命令</title>
+      <link>https://qingmengxinghe1024.github.io/post/Redis%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Sat, 15 May 2021 12:57:59 +0800</pubDate>
+      
+      <guid>https://qingmengxinghe1024.github.io/post/Redis%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</guid>
+      <description>设置密码 config set requirepass 登录密码 auth 密码 设置键值对 set key value set username zs 获取值 get key get username 存在，则输出指定的内容 不存在则输出：nil 给指定的值设置超时时间 expire username 100 默认-1，表示一直存在内存中 查看剩余时间 ttl username 若为-2，表示该键值对已经清除，不存在 确实key是否存在 exists username 1表示存在 0表示不存在 删除该键值对 del username 1表</description>
+    </item>
+    
+    <item>
+      <title>Linux常用命令</title>
+      <link>https://qingmengxinghe1024.github.io/post/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Sat, 15 May 2021 00:09:45 +0800</pubDate>
+      
+      <guid>https://qingmengxinghe1024.github.io/post/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>创建目录 mkdir smbms 查看文件详情 cat nginx.conf 重启nginx /usr/local/nginx/sbin/nginx -s reload 重启防火墙 firewall-cmd &amp;ndash;reload 开放82端口 firewall-cmd &amp;ndash;zone=public &amp;ndash;add-port=82/tcp &amp;ndash;permanent 启动nginx /usr/local/nginx/sbin/nginx 停止nginx /usr/local/nginx/sbin/nginx -s stop 测试nginx.conf是否成功 /usr/local/nginx/sbin/nginx -t 安装tar.gz文件 tar -zxvf nginx-1.17.6.tar.gz 运行tomcat ./apache-tomcat-7.0.47/bin/startup.sh 运行redis-cli控制台 ./usr/javaFile/redis/bin/redis-cli 查看redis进程 ps -ef|grep redis 查看Java进程 ps -aux|grep java -9表</description>
+    </item>
+    
+  </channel>
+</rss>

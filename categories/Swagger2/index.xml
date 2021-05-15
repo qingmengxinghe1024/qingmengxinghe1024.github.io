@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swagger2 on 云端奈何卿的博客</title>
+    <link>https://qingmengxinghe1024.github.io/categories/Swagger2/</link>
+    <description>Recent content in Swagger2 on 云端奈何卿的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 15 May 2021 00:09:45 +0800</lastBuildDate><atom:link href="https://qingmengxinghe1024.github.io/categories/Swagger2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swagger2注解</title>
+      <link>https://qingmengxinghe1024.github.io/post/Swagger2%E6%B3%A8%E8%A7%A3/</link>
+      <pubDate>Sat, 15 May 2021 00:09:45 +0800</pubDate>
+      
+      <guid>https://qingmengxinghe1024.github.io/post/Swagger2%E6%B3%A8%E8%A7%A3/</guid>
+      <description>Swagger使用@ApiParam注解需要和@RequertParam注解一起使用 @RequestMapping(value = &amp;ldquo;/getUserById.html&amp;rdquo;,method = RequestMethod.GET) @ApiOperation(notes = &amp;ldquo;获取单个用户信息&amp;rdquo;,value = &amp;ldquo;getUserById&amp;rdquo;,protocols = &amp;ldquo;http&amp;rdquo;,response = User.class,produces = &amp;ldquo;text/html&amp;rdquo;) public String getUser(@ApiParam(value = &amp;ldquo;主键&amp;rdquo;,name = &amp;ldquo;id&amp;rdquo;,defaultValue = &amp;ldquo;1&amp;rdquo;,required = true)@RequestParam Long id) { System.out.println(&amp;quot;id = &amp;quot; + id); return userService.queryUserById(id).toString(); }</description>
+    </item>
+    
+  </channel>
+</rss>
